@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0 auto;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+section {
+    border-bottom: 1px solid black;
+    min-height: 90vh;
+    padding: 10vh 0;
+}
+.row {
+    padding-top: 60px;
+}
+.navbar {
+    background-color: #373A36;
+    padding: 0;
+    line-height: 5vh;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    border-bottom: 1px solid gray;
+}
+.nav a {
+    color: #E6E2DD;
+    text-decoration: none;
+}
+.nav-item a:hover {
+    background-color: #E6E2DD;
+    color: #373A36;
+}
+.logo {
+    margin: 8px auto;
+    font-size: 26px;
+    font-weight: 900;
+}
+.indeks-dolny {
+    display: inline-block;
+    margin-left: 4px;
+    font-size: 14px;
+    color: #E6E2DD;
+}
+.first-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('../images/main.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.main-desc {
+    position: relative;
+    top: 25vh;
+    left: 10vh;
+    width: 40vh;
+    color: #E6E2DD;
+}
+h2 {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 5vh;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+h2::after {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	bottom: auto;
+	margin: auto;
+	content: '';
+	width: 10vh;
+	border-top: 2px solid transparent;
+}
+.inside {
+    list-style-type: none;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+img {
+    height: 245px;
+    width: 245px;
+    padding: 30px;
+    margin: 0 auto;
+}
+.dark-section {
+    background-color: #373A36;
+    color: #E6E2DD;
+}
+.dark-section h2::after {
+    border-color: #E6E2DD;
+}
+.bright-section {
+    background-color: #E6E2DD;
+    color: #373A36;
+}
+.bright-section h2::after {
+    border-color: #373A36;
+}
+footer>.container {
+    top: 0;
+    margin: 0 auto;
+    padding: 2vh;
+}
+@media screen and (max-width: 766px) {
+	.navbar {
+		display: none;
+	}
+}
+@media screen and (max-width: 400px) {
+	textarea {
+		width: 80%;
+	}
+}
+
+/* EFEKT PRZYBLIŻENIA ZDJĘĆ */
+
+.hovereffect {
+    width:100%;
+    height:100%;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    cursor:default;
+}
+.hovereffect .overlay {
+    width:100%;
+    height:100%;
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    left:0;
+    opacity:0;
+    background-color:rgba(0,0,0,0.8);
+    transition:all .2s ease-in-out
+}
+.hovereffect img {
+    display:block;
+    position:relative;
+    transition:all .2s linear;
+}
+.hovereffect:hover img {
+    transform:scale(1.3);
+}

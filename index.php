@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pl">
+    
+    <head>       
+        <!-- META TAGS -->
+        <meta charset="utf-8">
+        <meta name="description" content="Korepetycje z matematyki - tanio, zrozumiale, dla każdego. Online i na miejscu.">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        
+        <!-- REST -->
+        <title>Korepetycje z matematyki!</title>
+        <link rel="shortcut icon" type="image/jpg" href="images/favicon.jpg">
+    
+        <!-- BOOTSTRAP CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+        <!-- CSS & FONTS -->
+        <link rel="Stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        
+    </head>
+
+<body>
+
+    <section class="first-section">
+            
+            <div class="main-desc">
+        
+                <h3>Cześć, nazywam się <b>Adrian Treściński</b>
+                i obiecuję, że nauczę Cię matematyki!</h3>
+            
+            </div>
+    
+    </section>
+    
+    <nav class="navbar navbar-expand-sm">
+        
+        <div class="container">
+  
+            <div class="nav navbar-header">
+                
+                <a href="#description">
+                    
+                    <p class="logo">Adrian Treściński</p>
+                    
+                </a>
+                
+                <p class="indeks-dolny"><sub>korepetycje</sub></p>
+                
+            </div>
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#description">O mnie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tiles">Opis usług</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#price-list">Cennik</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Kontakt</a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        
+    </nav>
+    
+    <section class="bright-section" id="description">
+    
+        <div class="container">
+            
+            <h2>O mnie</h2>
+            
+            <div class="row description wow zoomIn" data-wow-duration="0.6s" data-wow-delay="0.3s">
+            
+                <p class="col-md-4 text-center">Jestem studentem II roku matematyki na Uniwersytecie Pedagogicznym w Krakowie. Matematyka nigdy nie sprawiała mi problemów i dołożę starań, żeby w Twoim przypadku było podobnie.</p>
+                
+                <div class="col-md-4 text-center">
+                
+                    <img src="images/me.jpg" class="img-thumbnail" alt="My photo">
+                
+                </div>
+            
+                <p class="col-md-4 text-center">Poza matematyką interesuję się jeszcze informatyką, językiem angielski, lubię czytać i grać (na wiele sposobów - na ukulele, w piłkę nożną/siatkówkę, w gry komputerowe).</p>
+            
+            </div>
+        
+        </div>
+    
+    </section>
+    
+    <section class="dark-section" id="gallery">
+    
+        <div class="container">
+            
+            <h2>Mały podgląd na moje zajęcia</h2>
+                    
+            <div class="row">   
+            
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow flipInX" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                
+                    <div class="hovereffect">
+                        
+                        <a href="images/zajecia.jfif" target="_blank">
+                            <img src="images/zajecia.jfif" alt="Zajęcia" class="img-responsive">
+                        </a>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow flipInX" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                
+                    <div class="hovereffect">
+                        
+                        <a href="images/zajecia6.jfif" target="_blank">
+                            <img src="images/zajecia6.jfif" alt="Zajęcia" class="img-responsive">
+                        </a>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow flipInX" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                
+                    <div class="hovereffect">
+                        
+                        <a href="images/zajecia4.jfif" target="_blank">
+                            <img src="images/zajecia4.jfif" alt="Zajęcia" class="img-responsive">
+                        </a>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow flipInX" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                
+                    <div class="hovereffect">
+                        
+                        <a href="images/zajecia3.jfif" target="_blank">
+                            <img src="images/zajecia3.jfif" alt="Zajęcia" class="img-responsive">
+                        </a>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow flipInX" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                
+                    <div class="hovereffect">
+                        
+                        <a href="images/zajecia2.jfif" target="_blank">
+                            <img src="images/zajecia2.jfif" alt="Zajęcia" class="img-responsive">
+                        </a>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow flipInX" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                
+                    <div class="hovereffect">
+                        
+                        <a href="images/zajecia5.jfif" target="_blank">
+                            <img src="images/zajecia5.jfif" alt="Zajęcia" class="img-responsive">
+                        </a>
+                    </div>
+                    
+                    
+                </div>
+            
+            </div>
+        
+        </div>
+    
+    </section>
+    
+    <section class="bright-section" id="tiles">
+    
+        <div class="container">
+        
+            <h2>Co cechuje moje zajęcia?</h2>
+            
+            <div class="row">
+            
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center wow slideInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                    
+                    <i class="large material-icons">close</i>
+                    <p>Żadnych nieporozumień! Przerobimy cały materiał ze szczególnym naciskiem na <u>zrozumienie</u> kluczowych kwesti oraz opanowanie tych części materiału, których nie rozumiesz.</p>
+                
+                </div>
+            
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow slideInUp" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                    
+                    <i class="large material-icons">done</i>
+                    <p>Pomogę Ci przygotować się do każdej kartkówki, sprawdzianu oraz egzaminu. Pokażę Ci jak podchodzić do zadań, jakie myślenie sobie wyrobić i jak uczyć się najefektywniej.</p>
+            
+                </div>
+            
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow slideInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                    
+                    <i class="large material-icons">filter_6</i>
+                    <p>Moi uczniownie regularnie zdobywają najlepsze możliwe oceny, a nauczyciele często zdziwieni są wynikami. Zdradzę Ci od razu tajemnicę, że nie ma tu żadnej magii. U mnie będziemy tylko i wyłącznie robić zadania - <u>i to zupełnie wystarcza!</u></p>
+            
+                </div>
+                
+                <div class="col-md-3 col-sm-6 col-xs-12 text-center wow slideInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                    
+                    <i class="large material-icons">desktop_windows</i>
+                    <p>Forma zajęć zależy tylko od Ciebie. Możemy uczyć się na odległość online, w mojej małej pracowni, u Ciebie, a nawet w jakimś zacisznym miejscu na mieście. Wybór należy do Ciebie.</p>
+            
+                </div>
+                
+            </div>
+        
+        </div>
+    
+    </section>
+
+    <section class="dark-section" id="price-list">
+    
+        <div class="container wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+        
+            <h2>Cennik</h2>
+            
+            <p>Zajęcia na miejscu:</p>
+            
+            <ul>
+                <li>Uczniowie klas podstawowych:</li>
+                <li class="inside">
+                    <ul>
+                        <li>Indywidualne - 35zł.</li>
+                        <li>Grupowe dla 2 osób - 25zł/osoba.</li>
+                        <li>Grupowe dla 3 osób - 20zł/osoba.</li>
+                    </ul>
+                </li>
+                <li>Uczniowie klas ponadpodstawowych:</li>
+                <li class="inside">
+                    <ul>
+                        <li>Indywidualne - 40zł.</li>
+                        <li>Grupowe dla 2 osób - 30zł/osoba.</li>
+                        <li>Grupowe dla 3 osób - 25zł/osoba.</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <p>Zajęcia online:</p>
+            
+            <ul>
+                <li>Uczniowie klas podstawowych:</li>
+                <li class="inside">
+                    <ul>
+                        <li>Indywidualne - 30zł.</li>
+                    </ul>
+                </li>
+                <li>Uczniowie klas ponadpodstawowych:</li>
+                <li class="inside">
+                    <ul>
+                        <li>Indywidualne - 35zł.</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <br>
+            
+            <p>Długość każdych zajęć wynosi 1 godzinę.</p>
+        </div>
+    
+    </section>
+    
+    <section class="bright-section" id="contact">
+    
+        <div class="container">
+        
+            <h2>Skontaktuj się ze mną!</h2>
+            
+            <?php
+            if (count($_POST)) {
+
+	           $email = '';	// Adres e-mail adresata
+	           $subject = 'Korepetycje-formularz';	// Temat listu
+	           $message = 'Dzięki za wiadomość! Odezwę się niedługo :)';	// Komunikat
+	           $error = 'Wystąpił błąd podczas wysyłania formularza (brak e-maila)';	// Komunikat błędu
+	           $charset = 'UTF-8';
+	
+	           $head =
+		          "MIME-Version: 1.0\r\n" .
+		          "Content-Type: text/plain; charset=$charset\r\n" .
+		          "Content-Transfer-Encoding: 8bit";
+	           $body = '';
+	           foreach ($_POST as $name => $value) {
+		          if (is_array($value)) {
+			         for ($i = 0; $i < count($value); $i++) {
+				        $body .= "$name= " . (get_magic_quotes_gpc() ? stripslashes($value[$i]) : $value[$i]) . "\r\n";
+			         }
+		          }
+		          else $body .= "$name=" . (get_magic_quotes_gpc() ? stripslashes($value) : $value) . "\r\n";
+	           }
+	           echo mail($email, "=?$charset?B?" . base64_encode($subject) . "?=", $body, $head) ? $message : $error;
+            }
+            else {
+            ?>
+            
+            <form action="?" method="post">
+                
+            <div class="row">
+                
+                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 text-center wow slideInLeft" data-wow-duration="1.1s" data-wow-delay="0.1s">
+
+                    <p>Podaj imię:</p>
+                    <input type="text" name="imie">
+                    <br><br>
+
+                    <p>Podaj nazwisko:</p>
+                    <input type="text" name="nazwisko">
+                    <br><br>
+
+                    <p>Podaj adres mailowy:</p>
+                    <input type="email" name="email">
+                    <br><br>
+            
+                </div>
+                
+                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 text-center wow slideInRight" data-wow-duration="1.1s" data-wow-delay="0.1s">
+                
+                    <p>Napisz krótko jak mogę Ci pomóc, do której klasy chodzisz i w jakie dni chciałbyś mieć ze mną zajęcia.</p>
+                
+                    <textarea rows="5" cols="40" name="opis" placeholder="..."></textarea>
+                
+                    <br><br>
+                
+                    <input type="reset" value="Wyczyść">
+                    <input type="submit" value="Wyślij">
+                    
+                </div>
+                
+            </div>
+                
+            </form>
+            
+            <?php
+            }
+            ?>
+        
+        </div>
+    
+    </section>
+    
+    <footer class="dark-section">
+    
+        <div class="container">
+        
+            <p class="text-left">
+                &copy; 2019 <strong>Adrian Treściński.<br>
+                <i>All rights reserved.</i></strong>
+            </p>
+        
+        </div>
+    
+    </footer>
+    
+    <!-- SKRYPTY WOW -->
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+    <!-- SKRYPTY BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</body>
+    
+</html>
